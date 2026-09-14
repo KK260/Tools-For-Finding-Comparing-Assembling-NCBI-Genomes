@@ -100,7 +100,7 @@ or collapses all individuals of a given taxon for genetic similarity comparisons
 
 ```
 # basic code:
-findClosestGenome --taxon "species/taxon" "outfolder" --genome_type "chloroplast" --overwrite --email XXX@XXX
+findClosestGenome --taxon "species/taxon" --outfolder "outfolder" --genome_type "chloroplast" --overwrite --email XXX@XXX
 
 # examples:
 findClosestGenome --taxon "ranunculus cassubicifolius" --outfolder ./closest_plastomes_ranunculaceae --genome_type "chloroplast" --max_genomes 80 --min_shared_fraction 0.7 --min_site_occupancy 0.5 --collapse_to_species --rank family --overwrite --email XXX@XXX
